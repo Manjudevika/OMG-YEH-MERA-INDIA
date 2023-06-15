@@ -1,0 +1,413 @@
+.frstpage,.login,.signup{
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.frstpage,.login,.signup{
+    animation: movement 3s infinite;
+}
+@keyframes movement{
+    0%{
+        background-image:url('https://wallpaperaccess.com/full/124915.jpg');
+
+    }
+    100%{
+        background-image:url('https://wallpaperaccess.com/full/124952.jpg');
+
+    }
+
+}
+.login{
+    animation: movement 3s infinite;
+}
+@keyframes movement{
+    0%{
+        background-image:url('https://wallpaperaccess.com/full/124933.jpg');
+
+    }
+    100%{
+        background-image:url('https://wallpaperaccess.com/full/125088.jpg');
+
+    }
+
+}
+
+
+.header{
+   padding:2%;
+    justify-content: space-evenly;  
+    display:flex;
+    float:right;
+
+}
+.nav a{
+    text-decoration: none;
+    color:whitesmoke;
+    background-color: rgba(0, 0, 0, 0);
+    border:1px solid rgba(248, 245, 245, 0.208);
+    padding:5px;
+    
+    border-radius:10px 10px 10px 10px;
+
+}
+.nav{
+ 
+    color:whitesmoke;
+    font-size:30px;
+    padding:5px;
+    position: sticky;
+}
+.nav:hover{
+    background-color:rgba(245, 245, 245, 0.208);
+    border-radius:15px 15px 15px 15px;
+    
+}
+ .txt{
+    font-size:40px;
+    color:whitesmoke;
+    position:absolute;
+    text-align:left;
+    width:75%;
+    margin-top:20%;
+    margin-right:35%;
+        
+}
+
+.box{
+    height: 500px;
+    width: 500px;
+    border: 1px solid rgba(250, 249, 249, 0.345);
+    background-color: rgba(10, 10, 10, 0.475);
+    margin:auto;
+    margin-top: 9%;
+    text-align:center;
+    font-size:30px;
+    color:whitesmoke;
+}
+.box:hover{
+    box-shadow:1px 1px 2px orange yellow greenyellow cyan ;
+}
+.input input{
+    
+    width: 60%;;
+    margin-top:4%;
+    font-style: cursive;
+    padding:1%;
+    border-radius: 10px 10px 10px 10px;
+}
+.input{
+    margin-top:10%;
+    font-size:25px;
+    padding:1%;
+    
+}
+h6{
+    margin-top:3%;
+}
+.accept{
+    height:4%;
+    width: 15%;
+    padding:2%;
+    margin-top:-2%;
+    font-size:18px;
+    border:2px solid rgb(255, 255, 255);
+    background-color: rgba(198, 194, 67, 0.957);
+    border-radius: 10px 10px 10px 10px;
+    
+}
+.accept a{
+    text-decoration:none;
+    color:black;
+}
+.accept a:visited{
+    text-decoration:none;
+    color:black;
+}
+.accept:hover{
+        animation: shadow 2s infinite;
+    }
+    @keyframes shadow{
+        0%{
+            text-shadow: 2px 2px 3px whitesmoke;
+            
+            color:rgb(0, 0, 0);
+        }
+        100%{
+            text-shadow: 2px 2px 3px whitesmoke;
+            
+            color:rgb(0, 0, 0);
+        }
+ 
+    
+    }
+    hr{
+        width: 40%;
+    }
+    .box2{
+        height: 710px;
+        width: 500px;
+        border: 1px solid rgba(250, 249, 249, 0.345);
+        background-color: rgba(10, 10, 10, 0.475);
+        margin:auto;
+        margin-top: 3%;
+        text-align:center;
+        font-size:30px;
+        color:whitesmoke;
+    }
+    .box2:hover{
+        box-shadow:1px 1px 2px orange yellow greenyellow cyan ;
+    }
+    .input2 input{
+        
+        width: 60%;;
+        margin-top:5%;
+        font-style: cursive;
+        padding:1%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .input2{
+        margin-top:5%;
+        font-size:25px;
+        padding: 2%;
+        
+        
+    }
+    select{
+        width: 60%;;
+        margin-top:5%;
+        font-style: cursive;
+        padding:1%;
+        border-radius: 10px 10px 10px 10px;
+
+    }
+.check{
+    margin-right: 70%;
+}
+.box2 h6{
+        margin-top: -5%;
+    }
+.box2 .accept{
+        height:4%;
+        width: 30%;      
+        font-size:18px;
+        
+        border:2px solid rgb(255, 255, 255);
+        background-color: rgba(198, 194, 67, 0.957);
+        border-radius: 10px 10px 10px 10px;
+        
+}
+.submit{
+
+    font-size: 50px;
+    margin-top: 20%;
+    font-style: italic;
+    text-align: center;
+    animation: change 1.5s infinite;
+    color:whitesmoke;
+    text-shadow:2px 2px 10px whitesmoke;
+    
+}
+    @keyframes change{
+        0%		{ background-color: #20be28;}
+		25%		{ background-color: #1f66d1;}
+		50%		{ background-color: #ef0a1a;}
+		75%		{ background-color: #145abc;}
+		100%	{ background-color: #00bfff;}
+    }
+.home{
+    background-image:url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+   margin:auto;
+    
+       
+ }
+.home{
+    animation-delay: 5s;
+    animation: move 10s infinite; 
+   
+ }
+ @keyframes move{
+    0%		{background-image: url('https://www.medianews4u.com/wp-content/uploads/2021/06/HistoryTV18-to-air-seven-seasons-of-OMG-Yeh-Mera-India-in-morning-hour-long-time-band-from-7-to-8-AM.jpg');}
+    25%		{ background-image:url('https://www.medianews4u.com/wp-content/uploads/2023/01/History-TV18-to-premiere-9th-season-of-%E2%80%98OMG-Yeh-Mera-India-on-26th-January.jpg');}
+    50%		{background-image: url('https://images.news18.com/ibnlive/uploads/2022/01/omg-s8_mailer_1280x768_dated.jpg?impolicy=website&width=0&height=0');}
+    75%{ background-image:url('https://www.medianews4u.com/wp-content/uploads/2019/11/OMG.jpg');}
+    100%	{background-image:url('./title.png') ;}
+}
+
+    
+
+.frst{
+    display: flex;
+    position:fixed;
+    justify-content: space-evenly;
+    padding: 2%;
+    height: 3%;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    border:1px solid black;
+
+}
+.frst a{
+    text-decoration: none;
+ 
+    color:  #ffa500;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.frst a:hover{
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;  
+}
+table{
+    height:550px;
+    width: 100%;
+    margin-top:5%;
+    box-shadow: 3px 3px 20px rgb(0, 98, 159);
+    
+  
+}
+
+td img{
+    height:300px;
+    width: 450px;
+    padding: 5%;  
+    box-shadow: 3px 3px 20px lightsteelblue;
+    margin-bottom: 3%;
+    border-radius: 10px 10px 10px 10px;
+}
+td:hover{
+    animation: zoom 1s ease;
+}
+@keyframes zoom{
+    from{
+        transform: scale(1.2);
+    }
+    to{
+        transform: scale(1.0);
+    }
+}
+td{
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+}
+td a{
+    height:500px;
+    width: 500%;
+    align-items: center;
+}
+.bg,.cn{
+    background-color: black;
+}
+.about img{
+    border-radius: 50%;
+    margin-top:5%;
+    margin-left: 40%;
+    height: 200px;
+    width: 200px;
+    box-shadow: 3px 3px 20px rgb(37, 237, 237);
+    animation: circle 2s infinite;
+}
+@keyframes circle{
+    0%{
+        transform: rotate(0deg);
+       
+    }
+    25%{
+        transform: rotate(45deg);
+        
+    }
+    50%{
+        transform: rotate(-45deg);
+       
+    }
+    75%{
+        transform: rotate(0deg);
+        
+    }
+    100%{
+        transform: rotate(-45deg);
+        
+    }
+}
+.about center{
+    padding: 5%;
+    font-size:25px;
+    font-style: italic;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color:whitesmoke;
+    text-align: justify;
+    font-family: cursive;
+   
+
+
+}
+.about{
+    height: 800px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 7%;
+  position:absolute;
+
+    border: 3px solid lightblue;
+    box-shadow: 3px 3px 20px skyblue;
+}
+.contact{
+height: 700px;
+width: 70%;
+margin-left: 7%;
+margin-top: 7%;
+position:absolute;
+padding:4%;
+border: 3px solid lightblue;
+box-shadow: 3px 3px 20px skyblue;
+}
+.contact i{
+    color: whitesmoke;
+    margin-left: 35%;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 3px 3px 10px skyblue ;
+}
+.input input{
+    align-items: center;
+    width: 45%;;
+    margin-top:5%;
+    margin-left: 5%;
+    font-style: cursive;
+    text-shadow: 3px 3px 10px skyblue ;
+    border-radius: 10px 10px 10px 10px;
+}
+.input{
+    text-shadow: 3px 3px 10px skyblue ;
+    margin-top:5%;
+    font-size:25px;
+    text-align:center;
+    color:whitesmoke;
+    padding:1%;
+    
+}
+textarea{
+    align-items: center;
+    height: 80px;
+    width: 45%;
+    margin-top:5%;
+    margin-left: 5%;
+    font-style: cursive;
+
+}
+.contact .accept{
+height:3%;
+    width: 10%;
+    padding:1%;   
+    font-size:18px;
+    margin-left: 45%;
+    margin-top: 2%;
+    border:2px solid rgb(255, 255, 255);
+    background-color: rgba(198, 194, 67, 0.957);
+    border-radius: 10px 10px 10px 10px;
+}
